@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -59,7 +61,10 @@
     padding: 16px;
     border-radius: 8px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: var(--cor-secundaria);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 20%);
+    transition: all 200ms;
 }
 
 .banner__link:hover {
@@ -97,6 +102,6 @@
     flex-flow: wrap;
     font-family: var(--font);
     font-size: 12px;
-    margin-top: 128px;
+    margin-top: 64px;
     padding: 24px 0;
 }
